@@ -1,0 +1,21 @@
+#container-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+#container-data2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-left: 3%;
+}

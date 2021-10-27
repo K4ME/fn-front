@@ -1,0 +1,99 @@
+#button-container-neumann {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button-container-neumann .bt1:hover {
+  background-color: #941a18;
+  border-color: #d3d3d3;
+}
+
+#button-container-neumann .bt2:hover {
+  background-color: #941a18;
+  border-color: #d3d3d3;
+}
+
+#button-container-neumann .bt1 {
+  width: 20%;
+  height: 10%;
+  border-radius: 24px;
+  font-size: 8px;
+  background-color: #b4181b;
+
+  margin-top: -25%;
+  margin-left: -45%;
+
+  border-color: #fff;
+  transition: transform 0.2s;
+}
+
+#button-container-neumann .bt2 {
+  width: 20%;
+  height: 10%;
+  border-radius: 24px;
+  font-size: 8px;
+  background-color: #b4181b;
+
+  margin-top: -25%;
+  margin-left: 1%;
+
+  border-color: #fff;
+}
+
+@media (min-width: 400px) {
+  #button-container-neumann .bt1 {
+    width: 20%;
+    height: 10%;
+    border-radius: 24px;
+    font-size: 12px;
+    background-color: #b4181b;
+
+    margin-top: -28%;
+    margin-left: -45%;
+
+    border-color: #fff;
+    transition: transform 0.2s;
+  }
+
+  #button-container-neumann .bt2 {
+    width: 20%;
+    height: 10%;
+    border-radius: 24px;
+    font-size: 12px;
+    background-color: #b4181b;
+
+    margin-top: -28%;
+    margin-left: 1%;
+
+    border-color: #fff;
+  }
+}
+
+@media (min-width: 1000px) {
+  #button-container-neumann .bt1 {
+    width: 15%;
+    height: 10%;
+    border-radius: 24px;
+    font-size: 24px;
+    background-color: #b4181b;
+
+    margin-top: -30%;
+    margin-left: -45%;
+
+    border-color: #fff;
+  }
+
+  #button-container-neumann .bt2 {
+    width: 15%;
+    height: 10%;
+    border-radius: 24px;
+    font-size: 24px;
+    background-color: #b4181b;
+
+    margin-top: -30%;
+    margin-left: 2%;
+
+    border-color: #fff;
+  }
+}

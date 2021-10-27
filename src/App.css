@@ -1,0 +1,9 @@
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link strong {
+  font-size: 18px;
+  margin-left: 10px;
+}
